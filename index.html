@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Load the latest version of TensorFlow.js -->
+  <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+  <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+  <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <title> Transfer learning image classifier | Efren Bautista L.</title>
+</head>
+<body>
+
+  <h1>Transfer learning image classifier </h1>
+ 
+  </br>
+  <!-- add buttons -->
+  <div id="botones">
+  <button id="class-a">Add capture A</button>
+  <button id="class-b">Add capture B</button>
+  <button id="class-c">Add capture C</button>
+  </div>
+  
+  <!-- Add webcam frame -->
+  <video autoplay playsinline muted id="webcam" width="500" height="500"></video>
+  
+  <!-- Responses frame-->
+  <div id="console"></div>
+  </br>
+  </br>
+  <a href="https://observablehq.com/@nsthorat/how-to-build-a-teachable-machine-with-tensorflow-js">See theory behind this</a>
+
+  </p>
+  <a class="github-button" href="https://github.com/efrenbl" aria-label="Follow @ntkme on GitHub">Follow @efrenbl</a>
+  <!-- Load index.js after the content of the page -->
+  <script src="index.js"></script>
+</body>
+</html>
