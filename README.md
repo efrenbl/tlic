@@ -1,4 +1,4 @@
-First project of my portafolio of machine learning
+First project of my portfolio of machine learning
 
 [LIVE PREVIEW](https://efrenbl.github.io/tlic/)
 
